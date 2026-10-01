@@ -1,0 +1,2 @@
+SELECT COUNT(*) AS total_rows
+FROM TBL_SC_FLEET_HIST_RAW;
