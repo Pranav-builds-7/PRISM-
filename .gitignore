@@ -4,3 +4,12 @@ __pycache__/
 *.pyc
 
 Data/raw/*.csv
+
+# VS Code
+.vscode/
+
+# Cache
+Data/cache/
+
+# Temporary experiments
+sample.py
