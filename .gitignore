@@ -1,7 +1,21 @@
 .venv/
 .env
+.env.*
 __pycache__/
 *.pyc
+
+# Secrets: never commit credential files
+.streamlit/secrets.toml
+*.pem
+
+# Local documentation and lightweight dependency notes
+UI_GUIDE.txt
+requirements-lite.txt
+.streamlit/
+src/__pycache__/
+
+# Server-side logs
+logs/
 
 Data/raw/*.csv
 
