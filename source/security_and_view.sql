@@ -2,7 +2,7 @@
 CREATE USER IF NOT EXISTS 'prism_view_owner'@'%'
 IDENTIFIED BY 'AgentPassword2026!';
 
-Allow the view owner to read only the raw logistics table
+-- Allow the view owner to read only the raw logistics table
 GRANT SELECT
 ON logistics.TBL_SC_FLEET_HIST_RAW
 TO 'prism_view_owner'@'%';

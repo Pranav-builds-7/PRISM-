@@ -14,6 +14,10 @@ requirements-lite.txt
 .streamlit/
 src/__pycache__/
 
+# Project presentation and design documents
+MISC/FDE-YT-Project-Business-Presentation.pdf
+MISC/Technical Design Document (TDD)_ Cold-Chain Logistics AI-Assistant.pdf
+
 # Server-side logs
 logs/
 
