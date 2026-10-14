@@ -7,6 +7,7 @@ __pycache__/
 # Secrets: never commit credential files
 .streamlit/secrets.toml
 *.pem
+connection.txt
 
 # Local documentation and lightweight dependency notes
 UI_GUIDE.txt
@@ -22,6 +23,7 @@ MISC/Technical Design Document (TDD)_ Cold-Chain Logistics AI-Assistant.pdf
 logs/
 
 Data/raw/*.csv
+output/pdf/PRISM_Academic_Project_Report.pdf
 
 # VS Code
 .vscode/
